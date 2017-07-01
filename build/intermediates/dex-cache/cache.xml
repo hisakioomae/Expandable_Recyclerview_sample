@@ -2,22 +2,40 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\hisak\.android\build-cache\7ea424a55f27bda802394aebd155fc1b3c3cdb80\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="28e30563778462cd038a3f1718f9f162a50630d4">
-        <dex dex="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6379bb286eec623d6a7c5b5f38037be3a508e3cc\classes.dex" />
+        sha1="4f97957ca13c4eda0e0ec407224f3d0d8d33ce09">
+        <dex dex="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview_sample\app\build\intermediates\pre-dexed\debug\classes_a7c83c65b217c57896bfddbddfaae8badabfb4f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hisak\.android\build-cache\3df2aa85657eab1c6e0aeb15ab3391d049d3c5a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview_sample\app\build\intermediates\pre-dexed\debug\classes_4068dd74e357ded9c7f3d3ce6cf5407ddc9d93d0.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview_sample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b93bebfa8de87302e2deb84acb19dbc29a4e8112\classes.dex" />
+        sha1="9cf8018df6ff08981e3e7f2f7c26f43302ce612f">
+        <dex dex="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview_sample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f1fe5e2532377a896209f0c0daaf760f21466ad8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview_sample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\hisak\AndroidStudioProjects\Expandable_Recyclerview_sample\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_f9d545142f93a6b263b0ed90f69a47468eb7b7b9\classes.dex" />
     </item>
 
 </items>

@@ -37,12 +37,16 @@ public class Home_Adapter extends ExpandableRecyclerViewAdapter<Parent_ViewHolde
 
     @Override
     public void onBindGroupViewHolder(Parent_ViewHolder holder, int flatPosition, ExpandableGroup group) {
-        holder.set(String.valueOf(flatPosition));
+        if(isGroupExpanded(flatPosition)){
+            holder.open();
+        }
+        else{
+            holder.close();
+        }
     }
 
     @Override
     public void onBindChildViewHolder(Child_ViewHolder holder, int flatPosition, ExpandableGroup group, int childIndex) {
-        holder.set(String.valueOf(childIndex));
     }
 
 }

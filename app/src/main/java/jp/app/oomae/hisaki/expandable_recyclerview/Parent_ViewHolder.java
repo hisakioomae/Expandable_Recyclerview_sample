@@ -2,7 +2,6 @@ package jp.app.oomae.hisaki.expandable_recyclerview;
 
 import android.view.View;
 import android.widget.TextView;
-
 import com.thoughtbot.expandablerecyclerview.viewholders.GroupViewHolder;
 
 /**
@@ -17,7 +16,19 @@ public class Parent_ViewHolder extends GroupViewHolder {
         super(itemView);
         text1 = (TextView)itemView.findViewById(R.id.parenttext);
     }
-    public void set(String i){//取得したidに変化を施す
-        text1.setText(i);
+    public void open(){
+        text1.setText("閉じる");
+    }
+    public void close(){
+        text1.setText("開く");
+    }
+
+    @Override
+    public void expand() {
+        open();
+    }
+    @Override
+    public void collapse() {
+        close();
     }
 }

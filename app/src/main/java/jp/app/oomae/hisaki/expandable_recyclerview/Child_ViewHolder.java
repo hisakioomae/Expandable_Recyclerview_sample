@@ -17,7 +17,5 @@ public class Child_ViewHolder extends ChildViewHolder {
         super(itemView);
         text1 = (TextView)itemView.findViewById(R.id.childtext);
     }
-    public void set(String i){//取得したidに変化を施す
-        text1.setText(i);
-    }
+
 }
